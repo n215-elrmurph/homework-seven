@@ -1,4 +1,4 @@
-# Homework 7
+# Homework-7
 
 ### Web 4 Link to Homework Assignment https://in-info-web4.informatics.iupui.edu/~elrmurph/homework-seven/
 
