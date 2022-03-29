@@ -1,0 +1,421 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+#app {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+nav {
+  max-width: 980px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  border-bottom: 2px solid black;
+  min-height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+nav .logo {
+  width: 100px;
+  height: 50px;
+}
+nav .links a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 15px;
+  font-family: gillSans;
+}
+nav .links span {
+  color: #79addc;
+}
+
+@media screen and (max-width: 800px) {
+  nav .logo img {
+    width: 85%;
+    height: 85%;
+    margin-left: 5px;
+  }
+  nav .links a {
+    margin: 0px 5px;
+  }
+}
+footer {
+  height: 100px;
+  background-color: #79addc;
+}
+footer .footer-content {
+  max-width: 980px;
+  height: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #FFFFFF;
+  font-family: gillSans;
+}
+footer .footer-content .social-logos a {
+  font-size: 150%;
+  margin-right: 20px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 800px) {
+  footer .footer-logo {
+    margin-left: 5px;
+  }
+  footer .footer-logo img {
+    width: 75%;
+    height: 75%;
+  }
+  footer .footer-content {
+    font-size: 12px;
+  }
+  footer .footer-content .social-logos {
+    font-size: 75%;
+  }
+}
+.about {
+  margin-top: 64px;
+  margin-bottom: 100px;
+  font-family: gillSans;
+}
+.about .about-header h1 {
+  margin-bottom: 2px;
+  font-size: 30px;
+  font-family: gillSans;
+  font-weight: 1;
+  letter-spacing: 5px;
+}
+.about .about-header .border-bottom {
+  width: 200px;
+  height: 2px;
+  margin-bottom: 36.5px;
+  background-color: black;
+}
+.about .about-header .blog-border-bottom {
+  width: 100px;
+  height: 2px;
+  margin-bottom: 36.5px;
+  background-color: black;
+}
+.about .about-header .contact-border-bottom {
+  width: 170px;
+  height: 2px;
+  margin-bottom: 36.5px;
+  background-color: black;
+}
+.about .special-offers .image-one {
+  position: relative;
+}
+.about .special-offers .image-one img {
+  width: 199px;
+  height: 287px;
+}
+.about .special-offers .image-one .spain {
+  position: absolute;
+  left: 215px;
+  top: 0px;
+  font-size: 30px;
+  font-family: gillSans;
+  letter-spacing: 5px;
+}
+.about .special-offers .image-one .border-bottom-two {
+  position: absolute;
+  width: 200px;
+  height: 2px;
+  margin-bottom: 36.5px;
+  background-color: black;
+  top: 35px;
+  left: 215px;
+}
+.about .special-offers .image-one .offer-one-text {
+  position: absolute;
+  width: 290px;
+  font-size: 16px;
+  font-family: gillSans;
+  top: 57px;
+  left: 215px;
+}
+.about .special-offers .image-one .button-one {
+  position: absolute;
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  color: white;
+  left: 215px;
+  top: 248px;
+  border-radius: 45px;
+  padding: 10px 15px;
+}
+.about .special-offers .image-one .twenty-off {
+  position: absolute;
+  color: #FF7D38;
+  top: 10px;
+  left: 560px;
+  font-size: 20px;
+  font-family: gillSans;
+}
+.about .special-offers .image-two {
+  margin-top: 60px;
+  position: relative;
+}
+.about .special-offers .image-two img {
+  width: 199px;
+  height: 287px;
+}
+.about .special-offers .image-two .thailand {
+  position: absolute;
+  left: 215px;
+  top: 0px;
+  font-size: 30px;
+  font-family: gillSans;
+  letter-spacing: 5px;
+}
+.about .special-offers .image-two .border-bottom-three {
+  position: absolute;
+  width: 230px;
+  height: 2px;
+  margin-bottom: 36.5px;
+  background-color: black;
+  top: 35px;
+  left: 215px;
+}
+.about .special-offers .image-two .offer-two-text {
+  position: absolute;
+  width: 290px;
+  font-size: 16px;
+  font-family: gillSans;
+  top: 57px;
+  left: 215px;
+}
+.about .special-offers .image-two .button-two {
+  position: absolute;
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  color: white;
+  left: 215px;
+  top: 248px;
+  border-radius: 45px;
+  padding: 10px 15px;
+}
+.about .special-offers .image-two .ten-off {
+  position: absolute;
+  color: #FF7D38;
+  top: 10px;
+  left: 600px;
+  font-size: 20px;
+  font-family: gillSans;
+}
+.about .blogs .blog-one {
+  position: relative;
+  height: 400px;
+  margin-bottom: 90px;
+}
+.about .blogs .blog-one .date-number {
+  position: absolute;
+  background-color: #79addc;
+  top: 0px;
+  width: 60px;
+  height: 60px;
+  color: white;
+  font-size: 22px;
+  padding-left: 20px;
+  padding-top: 9px;
+}
+.about .blogs .blog-one .date-month {
+  position: absolute;
+  color: white;
+  top: 30px;
+  left: 18px;
+}
+.about .blogs .blog-one img {
+  width: 900px;
+  height: 259px;
+  margin-left: 85px;
+}
+.about .blogs .blog-one .blog-one-title {
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 85px;
+}
+.about .blogs .blog-one .blog-one-text {
+  font-size: 13px;
+  color: #79addc;
+  margin-top: 11px;
+  margin-left: 85px;
+}
+.about .content {
+  position: relative;
+}
+.about .content .map img {
+  width: 400px;
+  height: 442px;
+}
+.about .content .form #name {
+  position: absolute;
+  left: 450px;
+  top: 0px;
+  width: 529px;
+  height: 60px;
+  background-color: #F5F5F5;
+  border: none;
+  padding-left: 21px;
+}
+.about .content .form #email {
+  position: absolute;
+  left: 450px;
+  top: 80px;
+  width: 529px;
+  height: 60px;
+  background-color: #F5F5F5;
+  border: none;
+  padding-left: 21px;
+}
+.about .content .form #company {
+  position: absolute;
+  left: 450px;
+  top: 160px;
+  width: 529px;
+  height: 60px;
+  background-color: #F5F5F5;
+  border: none;
+  padding-left: 21px;
+}
+.about .content .form #message {
+  position: absolute;
+  left: 450px;
+  top: 240px;
+  width: 529px;
+  height: 199px;
+  background-color: #F5F5F5;
+  border: none;
+  padding-left: 21px;
+}
+.about .content .form .send-message-button {
+  position: absolute;
+  background-color: #79addc;
+  height: 60px;
+  width: 167px;
+  top: 455px;
+  left: 450px;
+  color: white;
+  padding-left: 28px;
+  padding-top: 20px;
+}
+.about .content .contact-info {
+  margin-top: 34px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 23px;
+  font-family: gillSans;
+}
+
+@media screen and (max-width: 800px) {
+  .about-header {
+    margin-left: 5px;
+  }
+  .about-header p {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .about .about-header {
+    margin-left: 10px;
+  }
+  .about .special-offers .image-one img {
+    margin-left: 10px;
+  }
+  .about .special-offers .image-one .spain {
+    font-size: 20px;
+  }
+  .about .special-offers .image-one .twenty-off {
+    position: relative;
+    top: -90px;
+    left: 220px;
+  }
+  .about .special-offers .image-two img {
+    margin-left: 10px;
+  }
+  .about .special-offers .image-two .thailand {
+    font-size: 20px;
+  }
+  .about .special-offers .image-two .ten-off {
+    position: relative;
+    top: -90px;
+    left: 220px;
+  }
+  .about .blogs .blog-one img {
+    width: 450px;
+    height: 200px;
+  }
+  .about .blogs .blog-one .date-number {
+    margin-left: 10px;
+  }
+  .about .blogs .blog-one .date-month {
+    margin-left: 10px;
+  }
+  .about .content {
+    max-width: 400px;
+  }
+  .about .content .map img {
+    margin-left: 15px;
+  }
+  .about .content .form #name, .about .content .form #email, .about .content .form #message, .about .content .form #company {
+    position: relative;
+    left: 10px;
+    top: 10px;
+    border: 1px solid black;
+    width: 415px;
+  }
+  .about .content .form .send-message-button {
+    position: relative;
+    top: 20px;
+    left: 10px;
+  }
+  .about .content .contact-info {
+    margin-left: 10px;
+  }
+
+  .border-bottom {
+    margin-left: 5px;
+  }
+
+  .border-bottom-two {
+    margin-left: 5px;
+  }
+}
